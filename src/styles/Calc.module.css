@@ -1,0 +1,39 @@
+.calc {
+  width: min-content;
+  border: 1px solid black;
+}
+
+.calcDisplay {
+  font-size: 30px;
+  font-weight: 700;
+  height: min-content;
+  text-align: right;
+  background-color: lightblue;
+  padding: 3px;
+}
+
+/* .calcDisplay span {
+  vertical-align: middle;
+} */
+
+.calcKeyboard {
+  width: min-content;
+  background-color: rgb(91, 189, 250);
+  /* height: 50px; */
+}
+
+.calcKeyboard button{
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  margin: 0px;
+  font-size: 16px;
+  background-color: rgb(158, 215, 250);
+  border-radius: 6px;
+  transition-duration: 300ms;
+}
+
+.calcKeyboard button:active {
+  transition-duration: 0ms;
+  background-color: rgb(189, 230, 255);
+}
